@@ -10,18 +10,7 @@
   <entry>
     <title>Python基础概念及语法</title>
     <url>/2020/11/09/Python%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E5%8F%8A%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<html>
-<head>
-<style type="text/css">
-li{
-    font-size:12;
-}
-</style>
-</head>
-
-<body>
-## 基本概念
-<details markdown='1'><summary>编译型语言与解释型语言</summary>
+    <content><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><details markdown='1'><summary>编译型语言与解释型语言</summary>
 
 <ul>
 <li><strong>编译型语言</strong>：程序在执行之前需要一个专门的编译过程，把程序编译成为机器语言的文件，运行时不需要重新翻译，直接使用编译的结果就行了。<ul>
@@ -1886,9 +1875,6 @@ li{
 <p>提示：递归是一个 <strong>编程技巧</strong> ，初次接触递归会感觉有些吃力！在处理 <strong>不确定的循环条件时</strong> ，格外的有用</p>
 </blockquote>
 </details>
-
-</body>
-</html>
 ]]></content>
       <categories>
         <category>编程学习</category>
