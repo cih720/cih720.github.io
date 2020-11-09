@@ -10,13 +10,18 @@
   <entry>
     <title>Python基础概念及语法</title>
     <url>/2020/11/09/Python%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E5%8F%8A%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<style type="text/css">
+    <content><![CDATA[<html>
+<head>
+<style type="text/css">
 li{
     font-size:12;
 }
 </style>
+</head>
 
-<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><details markdown='1'><summary>编译型语言与解释型语言</summary>
+<body>
+## 基本概念
+<details markdown='1'><summary>编译型语言与解释型语言</summary>
 
 <ul>
 <li><strong>编译型语言</strong>：程序在执行之前需要一个专门的编译过程，把程序编译成为机器语言的文件，运行时不需要重新翻译，直接使用编译的结果就行了。<ul>
@@ -71,16 +76,13 @@ li{
 <details markdown='1'><summary>程序执行的原理</summary>
 
 <ul>
-<li><p>程序 <strong>运行之前</strong>，程序是 <strong>保存在硬盘</strong> 中的</p>
-</li>
-<li><p>当要运行一个程序时</p>
-<ol>
+<li>程序 <strong>运行之前</strong>，程序是 <strong>保存在硬盘</strong> 中的</li>
+<li>当要运行一个程序时<ol>
 <li>操作系统会首先让 <strong>CPU</strong> 把程序从 <strong>硬盘</strong> 复制到 <strong>内存</strong> 中</li>
 <li><strong>CPU</strong> 执行 <strong>内存</strong> 中的 <strong>程序代码</strong></li>
 </ol>
 </li>
-<li><p><strong>程序要执行，首先要被加载到内存</strong></p>
-</li>
+<li><strong>程序要执行，首先要被加载到内存</strong></li>
 </ul>
 </details>
 
@@ -1884,6 +1886,9 @@ li{
 <p>提示：递归是一个 <strong>编程技巧</strong> ，初次接触递归会感觉有些吃力！在处理 <strong>不确定的循环条件时</strong> ，格外的有用</p>
 </blockquote>
 </details>
+
+</body>
+</html>
 ]]></content>
       <categories>
         <category>编程学习</category>
