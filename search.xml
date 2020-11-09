@@ -2,10 +2,20 @@
 <search>
   <entry>
     <title>第一篇博客</title>
-    <url>/2020/11/07/first/</url>
+    <url>/2020/11/09/first/</url>
     <content><![CDATA[<h2 id="你好"><a href="#你好" class="headerlink" title="你好"></a>你好</h2><p>这是我的第一篇博客</p>
-<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>记录一些教程</p>
+<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><ol>
+<li>分享一些教程</li>
+<li>记录学习笔记</li>
+<li>写些日志</li>
+</ol>
 ]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+      <tags>
+        <tag>logs</tag>
+      </tags>
   </entry>
   <entry>
     <title>Python基础概念及语法</title>
