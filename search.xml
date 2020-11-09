@@ -9,8 +9,14 @@
   </entry>
   <entry>
     <title>Python基础概念及语法</title>
-    <url>/2020/11/08/Python%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E5%8F%8A%E8%AF%AD%E6%B3%95/</url>
-    <content><![CDATA[<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><details markdown='1'><summary>编译型语言与解释型语言</summary>
+    <url>/2020/11/09/Python%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5%E5%8F%8A%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<style type="text/css">
+li{
+    font-size:12;
+}
+</style>
+
+<h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><details markdown='1'><summary>编译型语言与解释型语言</summary>
 
 <ul>
 <li><strong>编译型语言</strong>：程序在执行之前需要一个专门的编译过程，把程序编译成为机器语言的文件，运行时不需要重新翻译，直接使用编译的结果就行了。<ul>
@@ -37,7 +43,7 @@
 </details>
 
 
-<details markdown='1'><summary>计算机的三大件</summary>
+<details markdown='1'><summary>计算机的三大硬件</summary>
 
 <p>计算机有三个核心硬件，分别是：</p>
 <ol>
@@ -92,7 +98,7 @@
 <h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><details markdown='1'><summary>注释的作用</summary>
 
 <ul>
-<li>增强程序的可读性</li>
+<li><strong>增强程序的可读性</strong></li>
 </ul>
 </details>
 
@@ -101,10 +107,8 @@
 
 
 <h3 id="单行注释"><a href="#单行注释" class="headerlink" title="单行注释"></a>单行注释</h3><ul>
-<li><p>以 # 开头，# 右边的所有东西都被当做说明⽂字，⽽不是真正要执⾏的程序，只起到辅助说明<br>作⽤。 <strong>为了保证代码的可读性 ，# 后⾯建议先添加⼀个空格，然后再编写相应的说明⽂字</strong> </p>
-</li>
-<li><p>在程序开发时，同样可以使⽤ # 在代码的后⾯（旁边）增加说明性的⽂字。但是，需要注意的是， <strong>为了保证代码的可读性，注释和代码之间⾄少要有两个空格</strong></p>
-</li>
+<li>以 # 开头，# 右边的所有东西都被当做说明⽂字，⽽不是真正要执⾏的程序，只起到辅助说明作⽤。 <strong>为了保证代码的可读性 ，# 后⾯建议先添加⼀个空格，然后再编写相应的说明⽂字</strong> </li>
+<li>在程序开发时，同样可以使⽤ # 在代码的后⾯（旁边）增加说明性的⽂字。但是，需要注意的是， <strong>为了保证代码的可读性，注释和代码之间⾄少要有两个空格</strong></li>
 </ul>
 <h3 id="多行注释"><a href="#多行注释" class="headerlink" title="多行注释"></a>多行注释</h3><ul>
 <li>要在 Python 程序中使⽤多⾏注释， <strong>可以⽤⼀对 连续的三个引号(单引号和双引号都可以)</strong></li>
@@ -292,44 +296,44 @@
 <table>
 <thead>
 <tr>
-<th align="center">运算符</th>
-<th align="center">描述</th>
+<th>运算符</th>
+<th>描述</th>
 <th>实例</th>
 </tr>
 </thead>
 <tbody><tr>
-<td align="center">+</td>
-<td align="center">加</td>
+<td>+</td>
+<td>加</td>
 <td>10 + 20 = 30</td>
 </tr>
 <tr>
-<td align="center">-</td>
-<td align="center">减</td>
+<td>-</td>
+<td>减</td>
 <td>10 - 20 = -10</td>
 </tr>
 <tr>
-<td align="center">*</td>
-<td align="center">乘</td>
+<td>*</td>
+<td>乘</td>
 <td>10 * 20 = 200</td>
 </tr>
 <tr>
-<td align="center">/</td>
-<td align="center">除</td>
+<td>/</td>
+<td>除</td>
 <td>10 / 20 = 0.5</td>
 </tr>
 <tr>
-<td align="center">//</td>
-<td align="center">取整除</td>
+<td>//</td>
+<td>取整除</td>
 <td>返回除法的整数部分（商） 9 // 2 输出结果 4</td>
 </tr>
 <tr>
-<td align="center">%</td>
-<td align="center">取余数</td>
+<td>%</td>
+<td>取余数</td>
 <td>返回除法的余数 9 % 2 = 1</td>
 </tr>
 <tr>
-<td align="center">**</td>
-<td align="center">幂</td>
+<td>**</td>
+<td>幂</td>
 <td>又称次方、乘方，2 ** 3 = 8</td>
 </tr>
 </tbody></table>
@@ -1819,7 +1823,7 @@
 <li>定义函数时，可以给 <strong>某个参数</strong> 指定一个 <strong>默认值</strong> ，具有默认值的参数就叫做 <strong>缺省参数</strong></li>
 <li>调用函数时，如果没有传入 <strong>缺省参数</strong> 的值，则在函数内部使用定义函数时指定的 <strong>参数默认值</strong></li>
 <li>函数的缺省参数， <strong>将常见的值设置为参数的缺省值</strong> ，从而 <strong>简化函数的调用</strong></li>
-<li>在参数后使用 <strong>赋值语句</strong> ，可以指定参数的缺省值</li>
+<li>在参数后使用 <strong>赋值语句</strong> ，可以指定参数的缺省</li>
 </ul>
 <p><strong>注意</strong> ：</p>
 <ul>
